@@ -30,7 +30,7 @@ function Dashboard(props) {
     // }
 
     const currentUser = () => {
-        Axios.get("http://127.0.0.1:3333/api/api/profile", { headers: authHeader() })
+        Axios.get("http://192.168.100.173:3333/api/api/profile", { headers: authHeader() })
             .then(res => {
                 // console.log(res.data)
                 setUser(res.data);

@@ -21,8 +21,7 @@ function FullLayout(props) {
         checkToken().then((res) => {
             console.log(res.data)
             if (res.data === true) {
-                props.history.push("/dashboard")
-
+                
                 setLoading(false)
             }
         }).catch(err => {

@@ -4,6 +4,7 @@ import Dashboard from './component/Home/Dashboard'
 import Login from './component/Login/Login'
 import { Redirect } from 'react-router-dom'
 import React from 'react'
+import DaftarBarang from './component/Home/DaftarBarang'
 
 export default [
     {
@@ -19,6 +20,11 @@ export default [
     {
         path: '/dashboard',
         layout: FullLayout,
-        component: Dashboard
+        component: Dashboard,
+    },
+    {
+        path: '/daftarbarang',
+        layout: FullLayout,
+        component: DaftarBarang
     }
 ]
