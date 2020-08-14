@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { BrowserRouter, Switch, Route } from 'react-router-dom';
 import routes from './routes';
 
@@ -6,15 +6,6 @@ import routes from './routes';
 // import './App.css';
 
 function App(props) {
-
-  // const existingTokens = JSON.parse(localStorage.getItem("tokens"));
-  // const [authTokens, setAuthTokens] = useState(existingTokens);
-
-  // const setTokens = (data) => {
-  //   localStorage.setItem("tokens", JSON.stringify(data));
-  //   setAuthTokens(data);
-  // }
-
 
   return (
     
