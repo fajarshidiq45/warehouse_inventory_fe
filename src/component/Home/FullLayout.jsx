@@ -9,9 +9,9 @@ import "react-loader-spinner/dist/loader/css/react-spinner-loader.css"
 function FullLayout(props) {
 
     const [loading, setLoading] = useState(false)
-    useEffect(() => {
-        checkUser();
-    }, [])
+    // useEffect(() => {
+    //     checkUser();
+    // }, [])
 
     // if (!localStorage.getItem('user')) {
     //     return <Redirect to="login" />
